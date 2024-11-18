@@ -1,0 +1,37 @@
+Defense of gas/CO2 multipliers:
+
+Our chipper truck is somewhere between a Ford F-550 and F-650, according to Tate.
+- Pretty random estimate: 6 mpg. Can’t find any reputable data.
+- 18.4 cubic yards of cargo volume, by Jason’s estimation.
+
+We’ll use a 2012 Ford F-150 to model the typical truck that residents would have otherwise used to drive their fuel to the dump, by Craig’s suggestion.
+- 17 city mpg, 23 highway mpg. We’re just using the city number.
+- 65.5 cubic feet of cargo volume = 2.2426 cubic yards.
+
+Our truck holds 8.2 times as much volume as the F-150, ignoring the fact that we chip. if we considered chipping, we'd hold even more volume.
+So if we do 1 trip at 6 miles per gallon, we’re saving 8.2 trips at 17 miles per gallon.
+Our trip: (x miles) / (1 gallon / 6 miles) = x/6 gallons = 0.167x gallons.
+Their trip: (8.2x miles) / (1 gallon / 17 miles) = 0.48x gallons.
+Ratio: 2.89 gallons to 1 gallon. 
+
+So for every gallon we use/every 6 miles we drive, we’re eliminating the use of 1.89 gallons. Or, for every mile we drive, we’re eliminating 0.315 gallons. For every mile we drive, they would have driven 8.2 miles. So for every mile they would have driven, we save 0.315 / 8.2 = 0.0384 gallons.
+
+Now, suppose we know that chipping lets us increase volume by a factor of y. Our truck then holds 8.2y times as much volume as the F-150.
+So 1 trip at 6 mpg means we’re saving 8.2y trips at 17 mpg.
+Our trip: (x miles) / (1 gallon / 6 miles) = x/6 gallons = 0.167 gallons.
+Their trip: (8.2yx miles) / (1 gallon / 17 miles) = 0.48y gallons.
+Ratio: 2.89y gallons to 1 gallon.
+
+So for every gallon we use/every 6 miles we drive, we’re eliminating the use of 2.89y - 1 gallons. Or, for every mile we drive, we’re eliminating 0.482y - 0.167 gallons.
+For every mile we drive, they would have driven 8.2 miles. So for every mile they would have driven, we save (0.482y - 0.167)/8.2 = 0.0588y - 0.0204 gallons.
+
+Conversion from gallons of gas to pounds of CO2 (assuming diesel, but small difference):
+1 gallon diesel = 10,180 grams CO2 = 22.44 pounds CO2. So if we know how many gallons we saved, we can multiply by 22.44 to find pounds of CO2 saved.
+If the distance calculator finds that a certain group of customers would have driven a total of x miles, then we have the following:
+
+Gallons of gas saved: 0.0384x gallons, or (0.0588y - 0.0204)x gallons where y is the factor by which chipping decreases volume
+Pounds of CO2 saved: 22.44z, where z is gallons of gas saved
+
+Ways to make these calculations more credible/meaningful
+- Ask the chipping company for fuel efficiency and cargo volume numbers for the trucks they drive
+- Ask them to estimate the ratio of chipped volume to unchipped volume (pretty important)
