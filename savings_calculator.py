@@ -1,6 +1,7 @@
 import requests
 import json
 import sys
+import os
 from requests.auth import HTTPBasicAuth
 
 '''
@@ -59,7 +60,7 @@ error_type = 0
 error_message = 0
 
 # API key
-key = "AIzaSyADdtquSheWrzaew_-7IySycLVNOISVly0"
+key = os.environ.get(FIRE_ASIDE_KEY)
 
 
 
